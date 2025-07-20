@@ -1,4 +1,7 @@
 # 👣 **Awesome python projects**
+
+[한국어판](./README_ko.md)
+
 ### 🧐 A collection of super-cool Python projects for starters!! ✨
 
 ![Author](https://img.shields.io/badge/author-garimasingh128-orange)
