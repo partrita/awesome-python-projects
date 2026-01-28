@@ -1,0 +1,13 @@
+[book]
+authors = ["garimasingh128", "mrinal41298"]
+language = "en"
+src = "."
+title = "Awesome Python Projects"
+
+[build]
+build-dir = "book"
+
+[preprocessor.links]
+# This preprocessor replaces {{#include ...}} with the file contents
+# and {{#playpen ...}} with a playable code snippet.
+# It's enabled by default.
