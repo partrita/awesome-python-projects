@@ -32,4 +32,3 @@ for i in inp:
                 if i in key:
                         password = password + val
 print("Name you entered : ", inp)
-print("Password : ", password)

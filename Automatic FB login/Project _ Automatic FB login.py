@@ -6,9 +6,6 @@ from selenium.webdriver.common.keys import Keys
 user_id=input('Enter User Id of your Fb Account :')  # Take user id and password as input from the user
 password=input('Enter the password :')
 
-print(user_id)
-print(password)
-
 cd='C:\\webdrivers\\chromedriver.exe' #path to your chrome driver
 
 
