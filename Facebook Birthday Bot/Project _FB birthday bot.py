@@ -6,9 +6,6 @@ from selenium.webdriver.common.keys import Keys
 user_id=input('Enter User Id of your Fb Account :')  # Take user id and password as input from the user
 password=input('Enter the password :')
 
-print(user_id)
-print(password)
-
 cd='C:\\webdrivers\\chromedriver.exe'
 
 
@@ -43,7 +40,7 @@ bday_list=browser.find_elements_by_xpath("//*[@class ='enter_submit uiTextareaNo
 
 c=0
 for element in bday_list: 
-    element_id = str(element.get_attribute('id')) 
+    element_id = str(element.get_attribute('id'))
     XPATH = '//*[@id ="' + element_id + '"]'
     post = browser.find_element_by_xpath(XPATH) #To fetch the box where to enter text
     post.send_keys("Happy Birthday, Best wishes.") # To enter the bday wish
