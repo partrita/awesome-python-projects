@@ -15,7 +15,7 @@ odfpy==1.4.0
 openpyxl==2.6.0
 Pillow
 pycodestyle==2.5.0
-pylint==2.2.2
+pylint==4.0.9
 pytz==2018.9
 PyYAML
 six==1.12.0
